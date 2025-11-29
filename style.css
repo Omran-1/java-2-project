@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    background-color: #a8c8dd;
+}
+.topper{
+    display: flex;
+    background-color: #77b2d4;
+    border-bottom: 5px solid #517992;
+
+}
+#Main-title{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  margin-top: 21px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  color: white;
+
+  -webkit-text-stroke-width: 2px; 
+  -webkit-text-stroke-color: #517992; 
+
+}
+#Main-image{
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    padding: 10px;
+
+}
+#Sub-header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-top: 35px;
+    padding-left: 5px;
+    -webkit-text-stroke-width: 1.5px; 
+    -webkit-text-stroke-color: #517992; 
+    font-size: 40px;
+}
+
+.navigation{
+    background-color:#77b2d4 ;
+    text-align: center;
+    height: 45px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+hr{
+    display: inline-block;
+    height: 18px;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+.hover:hover{
+    background-color: white;
+    opacity: 50%;
+    position: relative;
+    font-size: 22px;
+    border:0px;
+}
+#VSub-header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-top: 34px;
+    padding-left: 5px;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #517992; 
+    font-size:20px;
+}
+.hover{
+    display: inline-block;
+    padding-inline: 130px;
+    color: black;
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.about{
+    padding-top: 20px;
+    text-align: center;
+    height: 45px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+#san-diego{
+    width:1440px;
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%); 
+}
+.Header{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 70px;
+  color: white;
+
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #517992; 
+
+}
+p{
+    font-size: 25px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+iframe{
+    border: 7px solid #517992;
+    margin: 15px;
+}
+.San-facts{
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 105px;
+    vertical-align: top;
+    color: white;
+    font-size: 25px;    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.trailer{
+    display: flow-root;
+    text-align: center;
+    margin-left:366px ;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 350px;
+}
+.trailer:hover{
+        background-color: #a8c8dd;
+        opacity: 70%;
+}
+.about-nav{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
